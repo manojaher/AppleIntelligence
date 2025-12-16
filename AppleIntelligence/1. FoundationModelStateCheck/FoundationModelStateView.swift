@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  AppleIntelligence
 //
-//  Created by Manoj Aher on 06/01/26.
+//  Created by CodeAnatomyByAher on 06/01/26.
 //
 
 import SwiftUI
@@ -27,24 +27,85 @@ struct FoundationModelStateView: View {
     @State var isAlertShown: Bool = false
     @State var foundationModelState: FoundationModelState = .undetermined
     
+    var statusColor: Color {
+        switch foundationModelState {
+        case .found: return .green
+        case .unavailable: return .red
+        case .undetermined: return .gray
+        }
+    }
+    
+    var statusIcon: String {
+        switch foundationModelState {
+        case .found: return "checkmark.circle.fill"
+        case .unavailable: return "xmark.circle.fill"
+        case .undetermined: return "questionmark.circle.fill"
+        }
+    }
+    
     var body: some View {
-        Button("Check for Apple intelligence") {
-            let model = SystemLanguageModel.default
+        VStack(spacing: 24) {
+            Image(systemName: "sparkles")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 80, height: 80)
+                .symbolRenderingMode(.hierarchical)
+                .foregroundStyle(.primary)
             
-            switch model.availability {
-            case .available:
-                foundationModelState = .found
-                isAlertShown = true
-            case .unavailable(let reason):
-                foundationModelState = .unavailable(reason: reason)
+            VStack(spacing: 8) {
+                Text("Apple Intelligence")
+                    .font(.title2)
+                    .fontWeight(.bold)
+                
+                Text("Check if your device supports Apple Intelligence foundation models.")
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal)
             }
-            isAlertShown = true
+            
+            HStack(spacing: 12) {
+                Image(systemName: statusIcon)
+                    .foregroundStyle(statusColor)
+                    .font(.title3)
+                
+                Text(foundationModelState.description)
+                    .font(.headline)
+                    .foregroundStyle(statusColor)
+            }
+            .padding()
+            .background(statusColor.opacity(0.1))
+            .cornerRadius(12)
+            
+            Button {
+                checkAvailability()
+            } label: {
+                Text("Check Availability")
+                    .font(.headline)
+                    .frame(maxWidth: .infinity)
+                    .padding()
+                    .background(Color.blue)
+                    .foregroundColor(.white)
+                    .cornerRadius(12)
+            }
+            .padding(.horizontal)
         }
-        .alert("Foundation Models are \(foundationModelState.description)",
-               isPresented: $isAlertShown) {
-            Button("Okay") {}
-        }
+        .padding(32)
+        .background(Color(UIColor.systemBackground))
+        .cornerRadius(20)
+        .shadow(radius: 10)
         .padding()
+    }
+    
+    private func checkAvailability() {
+        let model = SystemLanguageModel.default
+        
+        switch model.availability {
+        case .available:
+            foundationModelState = .found
+        case .unavailable(let reason):
+            foundationModelState = .unavailable(reason: reason)
+        }
     }
 }
 

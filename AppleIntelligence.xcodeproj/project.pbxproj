@@ -7,12 +7,236 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		AF68917C2F0CA81E00BDA3FF /* AppleIntelligence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleIntelligence.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF68917C2F0CA81E00BDA3FF /* FoundationModelStateView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoundationModelStateView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6891962F0CACFC00BDA3FF /* FirstAIFeature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstAIFeature.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6891BE2F0CAE5000BDA3FF /* RecipeGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6891CF2F0CAF8E00BDA3FF /* StreamingResponses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreamingResponses.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6891E32F0CB08E00BDA3FF /* StreamingStructuredData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreamingStructuredData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF68920F2F0CBAAA00BDA3FF /* AddingContextSession.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddingContextSession.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF68921B2F0CBE0700BDA3FF /* WeatherTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6892552F0D75F900BDA3FF /* NoteGeneration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteGeneration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AF6891972F0CACFC00BDA3FF /* Exceptions for "AppleIntelligence" folder in "FirstAIFeature" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"1. FoundationModelStateCheck/AppleIntelligenceApp.swift",
+				"1. FoundationModelStateCheck/FoundationModelStateView.swift",
+				"3. Recipe Generator/Recipe.swift",
+				"3. Recipe Generator/RecipeApp.swift",
+				"3. Recipe Generator/RecipeDetailView.swift",
+				"3. Recipe Generator/RecipeView.swift",
+				"4. Streaming Responses/StreamingResponsesApp.swift",
+				"5. Streaming Structured Data /StreamingStructuredDataApp.swift",
+				"5. Streaming Structured Data /StreamingStructuredDataView.swift",
+				"6. Adding Context to Sessions/ContextSessionApp.swift",
+				"6. Adding Context to Sessions/ContextSessionView.swift",
+				"7. WeatherTools/WeatherTool.swift",
+				"7. WeatherTools/WeatherToolsApp.swift",
+				"7. WeatherTools/WeatherToolsView.swift",
+				"8. Note Generation App/NoteGenerationApp.swift",
+				"8. Note Generation App/NoteGenerationAppView.swift",
+				"8. Note Generation App/NoteSummary.swift",
+				"8. Note Generation App/NotesViewModel.swift",
+				"8. Note Generation App/NoteToSummarize.txt",
+				Assets.xcassets,
+			);
+			target = AF68918F2F0CACFC00BDA3FF /* FirstAIFeature */;
+		};
+		AF6891B22F0CADBE00BDA3FF /* Exceptions for "AppleIntelligence" folder in "FoundationModelStateView" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"2. First AI Feature/FirstAIFeatureView.swift",
+				"2. First AI Feature/MainApp.swift",
+				"3. Recipe Generator/Recipe.swift",
+				"3. Recipe Generator/RecipeApp.swift",
+				"3. Recipe Generator/RecipeDetailView.swift",
+				"3. Recipe Generator/RecipeView.swift",
+				"4. Streaming Responses/StreamingResponsesApp.swift",
+				"5. Streaming Structured Data /StreamingStructuredDataApp.swift",
+				"5. Streaming Structured Data /StreamingStructuredDataView.swift",
+				"6. Adding Context to Sessions/ContextSessionApp.swift",
+				"6. Adding Context to Sessions/ContextSessionView.swift",
+				"7. WeatherTools/WeatherTool.swift",
+				"7. WeatherTools/WeatherToolsApp.swift",
+				"7. WeatherTools/WeatherToolsView.swift",
+				"8. Note Generation App/NoteGenerationApp.swift",
+				"8. Note Generation App/NoteGenerationAppView.swift",
+				"8. Note Generation App/NoteSummary.swift",
+				"8. Note Generation App/NotesViewModel.swift",
+				"8. Note Generation App/NoteToSummarize.txt",
+			);
+			target = AF68917B2F0CA81E00BDA3FF /* FoundationModelStateView */;
+		};
+		AF6891BF2F0CAE5000BDA3FF /* Exceptions for "AppleIntelligence" folder in "RecipeGenerator" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"1. FoundationModelStateCheck/AppleIntelligenceApp.swift",
+				"1. FoundationModelStateCheck/FoundationModelStateView.swift",
+				"2. First AI Feature/FirstAIFeatureView.swift",
+				"2. First AI Feature/MainApp.swift",
+				"4. Streaming Responses/StreamingResponsesApp.swift",
+				"5. Streaming Structured Data /StreamingStructuredDataApp.swift",
+				"5. Streaming Structured Data /StreamingStructuredDataView.swift",
+				"6. Adding Context to Sessions/ContextSessionApp.swift",
+				"6. Adding Context to Sessions/ContextSessionView.swift",
+				"7. WeatherTools/WeatherTool.swift",
+				"7. WeatherTools/WeatherToolsApp.swift",
+				"7. WeatherTools/WeatherToolsView.swift",
+				"8. Note Generation App/NoteGenerationApp.swift",
+				"8. Note Generation App/NoteGenerationAppView.swift",
+				"8. Note Generation App/NoteSummary.swift",
+				"8. Note Generation App/NotesViewModel.swift",
+				"8. Note Generation App/NoteToSummarize.txt",
+				Assets.xcassets,
+			);
+			target = AF6891B72F0CAE5000BDA3FF /* RecipeGenerator */;
+		};
+		AF6891D02F0CAF8E00BDA3FF /* Exceptions for "AppleIntelligence" folder in "StreamingResponses" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"1. FoundationModelStateCheck/AppleIntelligenceApp.swift",
+				"1. FoundationModelStateCheck/FoundationModelStateView.swift",
+				"2. First AI Feature/FirstAIFeatureView.swift",
+				"2. First AI Feature/MainApp.swift",
+				"3. Recipe Generator/Recipe.swift",
+				"3. Recipe Generator/RecipeApp.swift",
+				"3. Recipe Generator/RecipeDetailView.swift",
+				"3. Recipe Generator/RecipeView.swift",
+				"5. Streaming Structured Data /StreamingStructuredDataApp.swift",
+				"5. Streaming Structured Data /StreamingStructuredDataView.swift",
+				"6. Adding Context to Sessions/ContextSessionApp.swift",
+				"6. Adding Context to Sessions/ContextSessionView.swift",
+				"7. WeatherTools/WeatherTool.swift",
+				"7. WeatherTools/WeatherToolsApp.swift",
+				"7. WeatherTools/WeatherToolsView.swift",
+				"8. Note Generation App/NoteGenerationApp.swift",
+				"8. Note Generation App/NoteGenerationAppView.swift",
+				"8. Note Generation App/NoteSummary.swift",
+				"8. Note Generation App/NotesViewModel.swift",
+				"8. Note Generation App/NoteToSummarize.txt",
+				Assets.xcassets,
+			);
+			target = AF6891C82F0CAF8E00BDA3FF /* StreamingResponses */;
+		};
+		AF6891E42F0CB08E00BDA3FF /* Exceptions for "AppleIntelligence" folder in "StreamingStructuredData" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"1. FoundationModelStateCheck/AppleIntelligenceApp.swift",
+				"1. FoundationModelStateCheck/FoundationModelStateView.swift",
+				"2. First AI Feature/FirstAIFeatureView.swift",
+				"2. First AI Feature/MainApp.swift",
+				"3. Recipe Generator/RecipeApp.swift",
+				"3. Recipe Generator/RecipeView.swift",
+				"4. Streaming Responses/StreamingResponsesApp.swift",
+				"4. Streaming Responses/StreamingResponseView.swift",
+				"6. Adding Context to Sessions/ContextSessionApp.swift",
+				"6. Adding Context to Sessions/ContextSessionView.swift",
+				"7. WeatherTools/WeatherTool.swift",
+				"7. WeatherTools/WeatherToolsApp.swift",
+				"7. WeatherTools/WeatherToolsView.swift",
+				"8. Note Generation App/NoteGenerationApp.swift",
+				"8. Note Generation App/NoteGenerationAppView.swift",
+				"8. Note Generation App/NoteSummary.swift",
+				"8. Note Generation App/NotesViewModel.swift",
+				"8. Note Generation App/NoteToSummarize.txt",
+				Assets.xcassets,
+			);
+			target = AF6891DC2F0CB08E00BDA3FF /* StreamingStructuredData */;
+		};
+		AF6892102F0CBAAA00BDA3FF /* Exceptions for "AppleIntelligence" folder in "AddingContextSession" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"1. FoundationModelStateCheck/AppleIntelligenceApp.swift",
+				"1. FoundationModelStateCheck/FoundationModelStateView.swift",
+				"2. First AI Feature/FirstAIFeatureView.swift",
+				"2. First AI Feature/MainApp.swift",
+				"3. Recipe Generator/Recipe.swift",
+				"3. Recipe Generator/RecipeApp.swift",
+				"3. Recipe Generator/RecipeDetailView.swift",
+				"3. Recipe Generator/RecipeView.swift",
+				"4. Streaming Responses/StreamingResponsesApp.swift",
+				"4. Streaming Responses/StreamingResponseView.swift",
+				"5. Streaming Structured Data /StreamingStructuredDataApp.swift",
+				"5. Streaming Structured Data /StreamingStructuredDataView.swift",
+				"7. WeatherTools/WeatherTool.swift",
+				"7. WeatherTools/WeatherToolsApp.swift",
+				"7. WeatherTools/WeatherToolsView.swift",
+				"8. Note Generation App/NoteGenerationApp.swift",
+				"8. Note Generation App/NoteGenerationAppView.swift",
+				"8. Note Generation App/NoteSummary.swift",
+				"8. Note Generation App/NotesViewModel.swift",
+				"8. Note Generation App/NoteToSummarize.txt",
+				Assets.xcassets,
+			);
+			target = AF6892082F0CBAAA00BDA3FF /* AddingContextSession */;
+		};
+		AF68921C2F0CBE0700BDA3FF /* Exceptions for "AppleIntelligence" folder in "WeatherTools" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"1. FoundationModelStateCheck/AppleIntelligenceApp.swift",
+				"1. FoundationModelStateCheck/FoundationModelStateView.swift",
+				"2. First AI Feature/FirstAIFeatureView.swift",
+				"2. First AI Feature/MainApp.swift",
+				"3. Recipe Generator/Recipe.swift",
+				"3. Recipe Generator/RecipeApp.swift",
+				"3. Recipe Generator/RecipeDetailView.swift",
+				"3. Recipe Generator/RecipeView.swift",
+				"4. Streaming Responses/StreamingResponsesApp.swift",
+				"4. Streaming Responses/StreamingResponseView.swift",
+				"5. Streaming Structured Data /StreamingStructuredDataApp.swift",
+				"5. Streaming Structured Data /StreamingStructuredDataView.swift",
+				"6. Adding Context to Sessions/ContextSessionApp.swift",
+				"6. Adding Context to Sessions/ContextSessionView.swift",
+				"8. Note Generation App/NoteGenerationApp.swift",
+				"8. Note Generation App/NoteGenerationAppView.swift",
+				"8. Note Generation App/NoteSummary.swift",
+				"8. Note Generation App/NotesViewModel.swift",
+				"8. Note Generation App/NoteToSummarize.txt",
+				Assets.xcassets,
+			);
+			target = AF6892142F0CBE0700BDA3FF /* WeatherTools */;
+		};
+		AF6892562F0D75F900BDA3FF /* Exceptions for "AppleIntelligence" folder in "NoteGeneration" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"1. FoundationModelStateCheck/AppleIntelligenceApp.swift",
+				"1. FoundationModelStateCheck/FoundationModelStateView.swift",
+				"2. First AI Feature/FirstAIFeatureView.swift",
+				"2. First AI Feature/MainApp.swift",
+				"3. Recipe Generator/Recipe.swift",
+				"3. Recipe Generator/RecipeApp.swift",
+				"3. Recipe Generator/RecipeDetailView.swift",
+				"3. Recipe Generator/RecipeView.swift",
+				"4. Streaming Responses/StreamingResponsesApp.swift",
+				"4. Streaming Responses/StreamingResponseView.swift",
+				"5. Streaming Structured Data /StreamingStructuredDataApp.swift",
+				"5. Streaming Structured Data /StreamingStructuredDataView.swift",
+				"6. Adding Context to Sessions/ContextSessionApp.swift",
+				"6. Adding Context to Sessions/ContextSessionView.swift",
+				"7. WeatherTools/WeatherTool.swift",
+				"7. WeatherTools/WeatherToolsApp.swift",
+				"7. WeatherTools/WeatherToolsView.swift",
+				Assets.xcassets,
+			);
+			target = AF68924E2F0D75F900BDA3FF /* NoteGeneration */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		AF68917E2F0CA81E00BDA3FF /* AppleIntelligence */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AF6891B22F0CADBE00BDA3FF /* Exceptions for "AppleIntelligence" folder in "FoundationModelStateView" target */,
+				AF6891972F0CACFC00BDA3FF /* Exceptions for "AppleIntelligence" folder in "FirstAIFeature" target */,
+				AF6891BF2F0CAE5000BDA3FF /* Exceptions for "AppleIntelligence" folder in "RecipeGenerator" target */,
+				AF6891D02F0CAF8E00BDA3FF /* Exceptions for "AppleIntelligence" folder in "StreamingResponses" target */,
+				AF6891E42F0CB08E00BDA3FF /* Exceptions for "AppleIntelligence" folder in "StreamingStructuredData" target */,
+				AF6892102F0CBAAA00BDA3FF /* Exceptions for "AppleIntelligence" folder in "AddingContextSession" target */,
+				AF68921C2F0CBE0700BDA3FF /* Exceptions for "AppleIntelligence" folder in "WeatherTools" target */,
+				AF6892562F0D75F900BDA3FF /* Exceptions for "AppleIntelligence" folder in "NoteGeneration" target */,
+			);
 			path = AppleIntelligence;
 			sourceTree = "<group>";
 		};
@@ -20,6 +244,55 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		AF6891792F0CA81E00BDA3FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6891912F0CACFC00BDA3FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6891B92F0CAE5000BDA3FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6891CA2F0CAF8E00BDA3FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6891DE2F0CB08E00BDA3FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF68920A2F0CBAAA00BDA3FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6892162F0CBE0700BDA3FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6892502F0D75F900BDA3FF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,7 +313,14 @@
 		AF68917D2F0CA81E00BDA3FF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF68917C2F0CA81E00BDA3FF /* AppleIntelligence.app */,
+				AF68917C2F0CA81E00BDA3FF /* FoundationModelStateView.app */,
+				AF6891962F0CACFC00BDA3FF /* FirstAIFeature.app */,
+				AF6891BE2F0CAE5000BDA3FF /* RecipeGenerator.app */,
+				AF6891CF2F0CAF8E00BDA3FF /* StreamingResponses.app */,
+				AF6891E32F0CB08E00BDA3FF /* StreamingStructuredData.app */,
+				AF68920F2F0CBAAA00BDA3FF /* AddingContextSession.app */,
+				AF68921B2F0CBE0700BDA3FF /* WeatherTools.app */,
+				AF6892552F0D75F900BDA3FF /* NoteGeneration.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +328,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AF68917B2F0CA81E00BDA3FF /* AppleIntelligence */ = {
+		AF68917B2F0CA81E00BDA3FF /* FoundationModelStateView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF6891872F0CA81E00BDA3FF /* Build configuration list for PBXNativeTarget "AppleIntelligence" */;
+			buildConfigurationList = AF6891872F0CA81E00BDA3FF /* Build configuration list for PBXNativeTarget "FoundationModelStateView" */;
 			buildPhases = (
 				AF6891782F0CA81E00BDA3FF /* Sources */,
 				AF6891792F0CA81E00BDA3FF /* Frameworks */,
@@ -63,11 +343,165 @@
 			fileSystemSynchronizedGroups = (
 				AF68917E2F0CA81E00BDA3FF /* AppleIntelligence */,
 			);
-			name = AppleIntelligence;
+			name = FoundationModelStateView;
 			packageProductDependencies = (
 			);
 			productName = AppleIntelligence;
-			productReference = AF68917C2F0CA81E00BDA3FF /* AppleIntelligence.app */;
+			productReference = AF68917C2F0CA81E00BDA3FF /* FoundationModelStateView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF68918F2F0CACFC00BDA3FF /* FirstAIFeature */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF6891932F0CACFC00BDA3FF /* Build configuration list for PBXNativeTarget "FirstAIFeature" */;
+			buildPhases = (
+				AF6891902F0CACFC00BDA3FF /* Sources */,
+				AF6891912F0CACFC00BDA3FF /* Frameworks */,
+				AF6891922F0CACFC00BDA3FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AF68917E2F0CA81E00BDA3FF /* AppleIntelligence */,
+			);
+			name = FirstAIFeature;
+			packageProductDependencies = (
+			);
+			productName = AppleIntelligence;
+			productReference = AF6891962F0CACFC00BDA3FF /* FirstAIFeature.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF6891B72F0CAE5000BDA3FF /* RecipeGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF6891BB2F0CAE5000BDA3FF /* Build configuration list for PBXNativeTarget "RecipeGenerator" */;
+			buildPhases = (
+				AF6891B82F0CAE5000BDA3FF /* Sources */,
+				AF6891B92F0CAE5000BDA3FF /* Frameworks */,
+				AF6891BA2F0CAE5000BDA3FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AF68917E2F0CA81E00BDA3FF /* AppleIntelligence */,
+			);
+			name = RecipeGenerator;
+			packageProductDependencies = (
+			);
+			productName = AppleIntelligence;
+			productReference = AF6891BE2F0CAE5000BDA3FF /* RecipeGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF6891C82F0CAF8E00BDA3FF /* StreamingResponses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF6891CC2F0CAF8E00BDA3FF /* Build configuration list for PBXNativeTarget "StreamingResponses" */;
+			buildPhases = (
+				AF6891C92F0CAF8E00BDA3FF /* Sources */,
+				AF6891CA2F0CAF8E00BDA3FF /* Frameworks */,
+				AF6891CB2F0CAF8E00BDA3FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AF68917E2F0CA81E00BDA3FF /* AppleIntelligence */,
+			);
+			name = StreamingResponses;
+			packageProductDependencies = (
+			);
+			productName = AppleIntelligence;
+			productReference = AF6891CF2F0CAF8E00BDA3FF /* StreamingResponses.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF6891DC2F0CB08E00BDA3FF /* StreamingStructuredData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF6891E02F0CB08E00BDA3FF /* Build configuration list for PBXNativeTarget "StreamingStructuredData" */;
+			buildPhases = (
+				AF6891DD2F0CB08E00BDA3FF /* Sources */,
+				AF6891DE2F0CB08E00BDA3FF /* Frameworks */,
+				AF6891DF2F0CB08E00BDA3FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AF68917E2F0CA81E00BDA3FF /* AppleIntelligence */,
+			);
+			name = StreamingStructuredData;
+			packageProductDependencies = (
+			);
+			productName = AppleIntelligence;
+			productReference = AF6891E32F0CB08E00BDA3FF /* StreamingStructuredData.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF6892082F0CBAAA00BDA3FF /* AddingContextSession */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF68920C2F0CBAAA00BDA3FF /* Build configuration list for PBXNativeTarget "AddingContextSession" */;
+			buildPhases = (
+				AF6892092F0CBAAA00BDA3FF /* Sources */,
+				AF68920A2F0CBAAA00BDA3FF /* Frameworks */,
+				AF68920B2F0CBAAA00BDA3FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AF68917E2F0CA81E00BDA3FF /* AppleIntelligence */,
+			);
+			name = AddingContextSession;
+			packageProductDependencies = (
+			);
+			productName = AppleIntelligence;
+			productReference = AF68920F2F0CBAAA00BDA3FF /* AddingContextSession.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF6892142F0CBE0700BDA3FF /* WeatherTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF6892182F0CBE0700BDA3FF /* Build configuration list for PBXNativeTarget "WeatherTools" */;
+			buildPhases = (
+				AF6892152F0CBE0700BDA3FF /* Sources */,
+				AF6892162F0CBE0700BDA3FF /* Frameworks */,
+				AF6892172F0CBE0700BDA3FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AF68917E2F0CA81E00BDA3FF /* AppleIntelligence */,
+			);
+			name = WeatherTools;
+			packageProductDependencies = (
+			);
+			productName = AppleIntelligence;
+			productReference = AF68921B2F0CBE0700BDA3FF /* WeatherTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF68924E2F0D75F900BDA3FF /* NoteGeneration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF6892522F0D75F900BDA3FF /* Build configuration list for PBXNativeTarget "NoteGeneration" */;
+			buildPhases = (
+				AF68924F2F0D75F900BDA3FF /* Sources */,
+				AF6892502F0D75F900BDA3FF /* Frameworks */,
+				AF6892512F0D75F900BDA3FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AF68917E2F0CA81E00BDA3FF /* AppleIntelligence */,
+			);
+			name = NoteGeneration;
+			packageProductDependencies = (
+			);
+			productName = AppleIntelligence;
+			productReference = AF6892552F0D75F900BDA3FF /* NoteGeneration.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -82,6 +516,18 @@
 				TargetAttributes = {
 					AF68917B2F0CA81E00BDA3FF = {
 						CreatedOnToolsVersion = 26.1.1;
+					};
+					AF68918F2F0CACFC00BDA3FF = {
+						LastSwiftMigration = 2610;
+					};
+					AF6891C82F0CAF8E00BDA3FF = {
+						LastSwiftMigration = 2610;
+					};
+					AF6891DC2F0CB08E00BDA3FF = {
+						LastSwiftMigration = 2610;
+					};
+					AF6892142F0CBE0700BDA3FF = {
+						LastSwiftMigration = 2610;
 					};
 				};
 			};
@@ -99,7 +545,14 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF68917B2F0CA81E00BDA3FF /* AppleIntelligence */,
+				AF68917B2F0CA81E00BDA3FF /* FoundationModelStateView */,
+				AF68918F2F0CACFC00BDA3FF /* FirstAIFeature */,
+				AF6891B72F0CAE5000BDA3FF /* RecipeGenerator */,
+				AF6891C82F0CAF8E00BDA3FF /* StreamingResponses */,
+				AF6891DC2F0CB08E00BDA3FF /* StreamingStructuredData */,
+				AF6892082F0CBAAA00BDA3FF /* AddingContextSession */,
+				AF6892142F0CBE0700BDA3FF /* WeatherTools */,
+				AF68924E2F0D75F900BDA3FF /* NoteGeneration */,
 			);
 		};
 /* End PBXProject section */
@@ -112,10 +565,108 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AF6891922F0CACFC00BDA3FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6891BA2F0CAE5000BDA3FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6891CB2F0CAF8E00BDA3FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6891DF2F0CB08E00BDA3FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF68920B2F0CBAAA00BDA3FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6892172F0CBE0700BDA3FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6892512F0D75F900BDA3FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AF6891782F0CA81E00BDA3FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6891902F0CACFC00BDA3FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6891B82F0CAE5000BDA3FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6891C92F0CAF8E00BDA3FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6891DD2F0CB08E00BDA3FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6892092F0CBAAA00BDA3FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6892152F0CBE0700BDA3FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF68924F2F0D75F900BDA3FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -306,6 +857,461 @@
 			};
 			name = Release;
 		};
+		AF6891942F0CACFC00BDA3FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeanatomybyaher.AppleIntelligence;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF6891952F0CACFC00BDA3FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeanatomybyaher.AppleIntelligence;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF6891BC2F0CAE5000BDA3FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeanatomybyaher.AppleIntelligence;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF6891BD2F0CAE5000BDA3FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeanatomybyaher.AppleIntelligence;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF6891CD2F0CAF8E00BDA3FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeanatomybyaher.AppleIntelligence;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF6891CE2F0CAF8E00BDA3FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeanatomybyaher.AppleIntelligence;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF6891E12F0CB08E00BDA3FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeanatomybyaher.AppleIntelligence;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF6891E22F0CB08E00BDA3FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeanatomybyaher.AppleIntelligence;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF68920D2F0CBAAA00BDA3FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeanatomybyaher.AppleIntelligence;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF68920E2F0CBAAA00BDA3FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeanatomybyaher.AppleIntelligence;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF6892192F0CBE0700BDA3FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeanatomybyaher.AppleIntelligence;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF68921A2F0CBE0700BDA3FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeanatomybyaher.AppleIntelligence;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF6892532F0D75F900BDA3FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeanatomybyaher.AppleIntelligence;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF6892542F0D75F900BDA3FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeanatomybyaher.AppleIntelligence;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -318,11 +1324,74 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF6891872F0CA81E00BDA3FF /* Build configuration list for PBXNativeTarget "AppleIntelligence" */ = {
+		AF6891872F0CA81E00BDA3FF /* Build configuration list for PBXNativeTarget "FoundationModelStateView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF6891882F0CA81E00BDA3FF /* Debug */,
 				AF6891892F0CA81E00BDA3FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF6891932F0CACFC00BDA3FF /* Build configuration list for PBXNativeTarget "FirstAIFeature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6891942F0CACFC00BDA3FF /* Debug */,
+				AF6891952F0CACFC00BDA3FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF6891BB2F0CAE5000BDA3FF /* Build configuration list for PBXNativeTarget "RecipeGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6891BC2F0CAE5000BDA3FF /* Debug */,
+				AF6891BD2F0CAE5000BDA3FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF6891CC2F0CAF8E00BDA3FF /* Build configuration list for PBXNativeTarget "StreamingResponses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6891CD2F0CAF8E00BDA3FF /* Debug */,
+				AF6891CE2F0CAF8E00BDA3FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF6891E02F0CB08E00BDA3FF /* Build configuration list for PBXNativeTarget "StreamingStructuredData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6891E12F0CB08E00BDA3FF /* Debug */,
+				AF6891E22F0CB08E00BDA3FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF68920C2F0CBAAA00BDA3FF /* Build configuration list for PBXNativeTarget "AddingContextSession" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF68920D2F0CBAAA00BDA3FF /* Debug */,
+				AF68920E2F0CBAAA00BDA3FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF6892182F0CBE0700BDA3FF /* Build configuration list for PBXNativeTarget "WeatherTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6892192F0CBE0700BDA3FF /* Debug */,
+				AF68921A2F0CBE0700BDA3FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF6892522F0D75F900BDA3FF /* Build configuration list for PBXNativeTarget "NoteGeneration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6892532F0D75F900BDA3FF /* Debug */,
+				AF6892542F0D75F900BDA3FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

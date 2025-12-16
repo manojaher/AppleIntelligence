@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct StreamingStructuredData: App {
+struct StreamingStructuredDataApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StreamingStructuredDataView()
         }
     }
 }

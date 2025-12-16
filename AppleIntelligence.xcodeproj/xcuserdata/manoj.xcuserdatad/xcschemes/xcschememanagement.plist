@@ -4,10 +4,88 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AppleIntelligence.xcscheme_^#shared#^_</key>
+		<key>AddingContextSession.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>FirstAIFeature.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>FoundationModelStateView.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>NoteGeneration.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>RecipeGenerator.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>StreamingResponses.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>StreamingStructuredData.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>WeatherTools.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>AF68917B2F0CA81E00BDA3FF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AF68918F2F0CACFC00BDA3FF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AF6891B72F0CAE5000BDA3FF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AF6891C82F0CAF8E00BDA3FF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AF6891DC2F0CB08E00BDA3FF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AF6892082F0CBAAA00BDA3FF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AF6892142F0CBE0700BDA3FF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AF68924E2F0D75F900BDA3FF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

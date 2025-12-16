@@ -2,7 +2,7 @@
 //  AppleIntelligenceApp.swift
 //  AppleIntelligence
 //
-//  Created by Manoj Aher on 06/01/26.
+//  Created by CodeAnatomyByAher on 06/01/26.
 //
 
 import SwiftUI
