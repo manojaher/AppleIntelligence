@@ -46,6 +46,11 @@ This project explores the potential of on-device intelligence using Swift and Sw
 3.  Build and run the app.
 4.  Navigate through the different demos to explore the features.
 
+## Demo
+
+<video src="AppleIntelligence/Apple_Intelligence.mov" controls width="100%"></video>
+
+
 ## Note
 
 This project uses experimental APIs for Apple Intelligence which are subject to availability and change. Ensure your development environment is correctly set up for on-device intelligence.
