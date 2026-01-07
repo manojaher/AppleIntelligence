@@ -48,7 +48,10 @@ This project explores the potential of on-device intelligence using Swift and Sw
 
 ## Demo
 
-<video src="AppleIntelligence/Apple_Intelligence.mov" controls width="100%"></video>
+<video controls width="100%">
+    <source src="https://youtube.com/shorts/dpZCkBTOdek">
+    Your browser does not support the video tag.
+</video>
 
 ## Note
 
